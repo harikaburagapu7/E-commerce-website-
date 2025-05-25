@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Us - Passionate E-Commerce</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 40px 20px;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: #2575fc;
+      letter-spacing: 1.5px;
+    }
+    p {
+      max-width: 700px;
+      font-size: 1.2rem;
+      line-height: 1.7;
+      text-align: center;
+      margin-bottom: 40px;
+      color: #555;
+    }
+    nav {
+      margin-bottom: 40px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #2575fc;
+      font-weight: 600;
+      margin: 0 15px;
+      padding: 8px 15px;
+      border-radius: 20px;
+      background: rgba(37,117,252,0.15);
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+    nav a:hover {
+      background: #2575fc;
+      color: #fff;
+    }
+    .team-section {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 900px;
+      width: 100%;
+    }
+    .team-member {
+      background: #fff;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 12px 24px rgba(37,117,252,0.15);
+      width: 220px;
+      text-align: center;
+      transition: transform 0.3s ease;
+      cursor: default;
+    }
+    .team-member:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(37,117,252,0.3);
+    }
+    .team-photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .team-name {
+      font-weight: 700;
+      font-size: 1.2rem;
+      margin-bottom: 5px;
+      color: #2575fc;
+    }
+    .team-role {
+      font-size: 1rem;
+      color: #777;
+    }
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+      p {
+        font-size: 1rem;
+        padding: 0 10px;
+      }
+      .team-section {
+        flex-direction: column;
+        align-items: center;
+      }
+      .team-member {
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>About Us</h1>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="clothing.html">Clothing</a>
+    <a href="accessories.html">Accessories</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <p>
+    Welcome to our passionate e-commerce store, where fashion meets innovation.
+    We are dedicated to bringing you the latest trends in clothing and accessories, crafted with love and care.
+    Our mission is to empower your style with confidence and comfort. Join us on this exciting journey to redefine your wardrobe.
+  </p>
+
+  <section class="team-section">
+    <div class="team-member">
+      <img src="img/team1.jpg" alt="Founder - Sarah" class="team-photo" />
+      <div class="team-name">Sarah Johnson</div>
+      <div class="team-role">Founder & CEO</div>
+    </div>
+    <div class="team-member">
+      <img src="img/team2.jpg" alt="Designer - Mike" class="team-photo" />
+      <div class="team-name">Mike Anderson</div>
+      <div class="team-role">Lead Designer</div>
+    </div>
+    <div class="team-member">
+      <img src="img/team3.jpg" alt="Marketing - Emily" class="team-photo" />
+      <div class="team-name">Emily Davis</div>
+      <div class="team-role">Marketing Head</div>
+    </div>
+  </section>
+
+</body>
+</html>
